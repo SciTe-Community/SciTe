@@ -1,0 +1,51 @@
+---
+name: Bug Report
+description: Report errors or unexpected behavior.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting issues of v-telegram-bot!
+
+        To make it easier for us to help you please enter detailed information below.
+  - type: textarea
+    attributes:
+      label: Steps tp reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      placeholder: Tell us what should happen
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Actual behavior
+      placeholder: Tell us what happens instead
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version of v-telegram-bot
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Installation source
+      multiple: false
+      options:
+        - Static binary from official GitHub release
+        - Other (unofficial) source
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Logs
+      placeholder: Insert log.txt here (if necessary)
+      render: shell
