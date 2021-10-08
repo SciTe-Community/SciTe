@@ -20,7 +20,7 @@ make
 cd ../..
 ```
 
-To build and install SciTE, use the makefile located in the scite/gtk directory
+To build and install SciTe, use the makefile located in the scite/gtk directory
 ```sh
 cd scite/gtk
 make
@@ -36,7 +36,7 @@ and make install as this location is compiled into the executable. The global
 properties file is installed at $prefix/share/scite/SciTEGlobal.properties.
 The language specific properties files are also installed into this directory.
 
-To remove SciTE
+To remove SciTe
 ```sh
 sudo make uninstall
 ```
@@ -46,7 +46,7 @@ To clean the object files which may be needed to change `$prefix`
 make clean
 ```
 
-The current make file supports static and dynamic linking between SciTE, Scintilla, and Lexilla.
+The current make file supports static and dynamic linking between SciTe, Scintilla, and Lexilla.
 
 
 ### Windows version
@@ -68,7 +68,7 @@ nmake -f scintilla.mak
 cd ..\..
 ```
 
-To build SciTE, use the makefiles located in the scite/win32 directory
+To build SciTe, use the makefiles located in the scite/win32 directory
 ```sh
 cd scite\win32
 # GCC:
@@ -98,7 +98,7 @@ mingw32-make
 
 Xcode 9.2 or later may be used to build Scintilla on macOS.
 
-There is no open source version of SciTE for macOS but there is a commercial
+There is no open source version of SciTe for macOS but there is a commercial
 version available through the App Store.
 
 To build Scintilla, run xcodebuild in the scintilla/cocoa/ScintillaFramework or 
@@ -116,7 +116,7 @@ See the qt/README file to build Scintilla with Qt.
 #### License agreement for this project:
 
 ```
-License for Lexilla, Scintilla, and SciTE
+License for Lexilla, Scintilla, and SciTe
 
 Copyright 1998-2021 by Neil Hodgson <neilh@scintilla.org>
 
