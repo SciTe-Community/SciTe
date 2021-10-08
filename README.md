@@ -27,7 +27,7 @@ make
 sudo make install
 ```
 
-This installs SciTE into $prefix/bin. The value of $prefix is determined from
+This installs SciTe into $prefix/bin. The value of $prefix is determined from
 the location of Gnome if it is installed. This is usually /usr if installed
 with Linux or /usr/local if built from source. If Gnome is not installed
 /usr/bin is used as the prefix. The prefix can be overridden on the command
