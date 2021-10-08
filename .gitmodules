@@ -1,3 +1,6 @@
 [submodule "docs"]
 	path = docs/
 	url = https://github.com/SciTe-Community/docs.git
+[submodule "build"]
+	path = build/
+	url = https://github.com/SciTe-Community/build.git
