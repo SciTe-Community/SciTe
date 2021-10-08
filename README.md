@@ -5,7 +5,7 @@ To build SciTE, Scintilla and Lexilla should first be built.
 
 See lexilla/README.md for information on building Lexilla.
 
-*** GTK+/Linux version ***
+***GTK+/Linux version***
 
 You must first have GTK+ 2.24 or later and GCC (7.1 or better) installed.
 Clang may be used by adding CLANG=1 to the make command line.
@@ -49,7 +49,7 @@ make clean
 The current make file supports static and dynamic linking between SciTE, Scintilla, and Lexilla.
 
 
-*** Windows version ***
+***Windows version***
 
 A C++ 17 compiler is required.
 Visual Studio 2019 is the development system used for most development
@@ -79,7 +79,7 @@ nmake -f scite.mak
 
 An executable SciTE will now be in scite/bin.
 
-*** GTK+/Windows version ***
+***GTK+/Windows version***
 
 Mingw-w64 is known to work. Other compilers will probably not work.
 
@@ -94,7 +94,7 @@ cd scintilla\gtk
 mingw32-make
 ```
 
-*** macOS Cocoa version ***
+***macOS Cocoa version***
 
 Xcode 9.2 or later may be used to build Scintilla on macOS.
 
@@ -109,7 +109,7 @@ cd cocoa/Scintilla
 xcodebuild
 ```
 
-*** Qt version ***
+***Qt version***
 
 See the qt/README file to build Scintilla with Qt.
 
