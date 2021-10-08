@@ -4,3 +4,6 @@
 [submodule "build"]
 	path = build/
 	url = https://github.com/SciTe-Community/build.git
+[submodule "src/assets/color-highlighter"]
+	path = src/assets/color-highlighter
+	url = https://github.com/SciTe-Community/color-highlighter.git
