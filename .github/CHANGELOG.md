@@ -1,1 +1,5 @@
-# [v-telegram-bot](https://github.com/vTelegramBot/v-telegram-bot) change log
+# [SciTe](https://github.com/SciTe-Community/SciTe): change log
+
+#### v5.1.1
+
+- Created...
