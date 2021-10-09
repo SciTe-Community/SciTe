@@ -15,16 +15,16 @@ chosen with the make argument GTK3=1.
 
 To build Scintilla, use the makefile located in the scintilla/gtk directory
 ```sh
-cd scintilla/gtk
-make
-cd ../..
+$ cd scintilla/gtk
+$ make
+$ cd ../..
 ```
 
 To build and install SciTe, use the makefile located in the scite/gtk directory
 ```sh
-cd scite/gtk
-make
-sudo make install
+$ cd scite/gtk
+$ make
+$ sudo make install
 ```
 
 This installs SciTe into $prefix/bin. The value of $prefix is determined from
@@ -38,12 +38,12 @@ The language specific properties files are also installed into this directory.
 
 To remove SciTe
 ```sh
-sudo make uninstall
+$ sudo make uninstall
 ```
 
 To clean the object files which may be needed to change `$prefix`
 ```sh
-make clean
+$ make clean
 ```
 
 The current make file supports static and dynamic linking between SciTe, Scintilla, and Lexilla.
@@ -57,24 +57,24 @@ although Mingw-w64 9.2 is also supported.
 
 To build Scintilla, make in the scintilla/win32 directory
 ```sh
-cd scintilla\win32
+$ cd scintilla\win32
 # GCC:
-mingw32-make
+$ mingw32-make
 # Visual C++:
-nmake -f scintilla.mak
+$ nmake -f scintilla.mak
 ```
 
 ```sh
-cd ..\..
+$ cd ..\..
 ```
 
 To build SciTe, use the makefiles located in the scite/win32 directory
 ```sh
-cd scite\win32
+$ cd scite\win32
 # GCC:
-mingw32-make
+$ mingw32-make
 # Visual C++:
-nmake -f scite.mak
+$ nmake -f scite.mak
 ```
 
 An executable SciTE will now be in scite/bin.
@@ -90,8 +90,8 @@ a shared library without lexers (`libscintilla.so` or or `libscintilla.dll`).
 
 To build Scintilla, make in the scintilla/gtk directory
 ```sh
-cd scintilla\gtk
-mingw32-make
+$ cd scintilla\gtk
+$ mingw32-make
 ```
 
 ### macOS Cocoa version
@@ -105,8 +105,8 @@ To build Scintilla, run xcodebuild in the scintilla/cocoa/ScintillaFramework or
 scintilla/cocoa/Scintilla directory
 
 ```sh
-cd cocoa/Scintilla
-xcodebuild
+$ cd cocoa/Scintilla
+$ xcodebuild
 ```
 
 ### Qt version
