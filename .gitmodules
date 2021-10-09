@@ -1,8 +1,8 @@
-[submodule "docs"]
-	path = docs/
+[submodule "docs/"]
+	path = ./docs
 	url = https://github.com/SciTe-Community/docs.git
-[submodule "build"]
-	path = build/
+[submodule "build/"]
+	path = ./build
 	url = https://github.com/SciTe-Community/build.git
 [submodule "src/assets/color-highlighter"]
 	path = src/assets/color-highlighter
