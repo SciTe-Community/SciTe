@@ -7,3 +7,6 @@
 [submodule "src/assets/color-highlighter"]
 	path = src/assets/color-highlighter
 	url = https://github.com/SciTe-Community/color-highlighter.git
+[submodule "src/third-party/GTK"]
+	path = src/third-party/GTK
+	url = https://github.com/SciTe-Community/GTK.git
