@@ -10,3 +10,6 @@
 [submodule "src/third-party/GTK"]
 	path = src/third-party/GTK
 	url = https://github.com/SciTe-Community/GTK.git
+[submodule "src/third-party/WIN32"]
+	path = src/third-party/WIN32
+	url = https://github.com/SciTe-Community/WIN32.git
