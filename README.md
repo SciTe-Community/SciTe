@@ -1,7 +1,7 @@
 # [SciTe](https://www.scintilla.org/SciTE.html)
 
 Scintilla and Lexilla can be built by themselves.
-To build SciTE, Scintilla and Lexilla should first be built.
+To build SciTe, Scintilla and Lexilla should first be built.
 
 See lexilla/README.md for information on building Lexilla.
 
