@@ -1,3 +1,1 @@
-*.v linguist-language=V text=auto eol=lf
-*.vv linguist-language=V text=auto eol=lf
-v.mod linguist-language=V text=auto eol=lf
+*.properties linguist-language=cpp text=auto eol=lf
